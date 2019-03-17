@@ -1,0 +1,42 @@
+{
+  "name": "hidemu",
+  "version": "0.0.1",
+  "description": "Human Interface Device Emulator on Node.js written by C++.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-gyp rebuild && node test.js"
+  },
+  "keywords": [
+    "automation",
+    "GUI",
+    "mouse",
+    "keyboard",
+    "desktop",
+    "robot",
+    "autohotkey",
+    "Windows",
+    "input",
+    "human interface device"
+  ],
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "types": "index.d.ts",
+  "author": {
+    "name": "pboymt",
+    "url": "https://github.com/pboymt"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pboymt/hidemu.git"
+  },
+  "gypfile": true
+}
