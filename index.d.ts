@@ -11,12 +11,12 @@ declare module "hidemu" {
 
     function mouseMove(x: number, y: number): boolean;
 
-    function mouseDown(isRight: boolean): void;
+    function mouseDown(isRight?: boolean): void;
 
-    function mouseUp(isRight: boolean): void;
+    function mouseUp(isRight?: boolean): void;
 
-    function mousePress(isRight: boolean): void;
+    function mousePress(isRight?: boolean): void;
 
-    function mouseWheel(delta: number, isHorizon: boolean): void;
+    function mouseWheel(delta: number, isHorizon?: boolean): void;
 
 }
