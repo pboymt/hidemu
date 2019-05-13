@@ -31,12 +31,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bindings": "^1.5.0",
     "node-addon-api": "^1.6.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pboymt/hidemu.git"
   },
-  "gypfile": true
+  "gypfile": true,
+  "devDependencies": {
+    "@types/node": "^12.0.0"
+  }
 }

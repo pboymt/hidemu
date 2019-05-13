@@ -1,1 +1,2 @@
-module.exports = require('bindings')('hidemu');
+const join = require('path').join;
+module.exports = require(join(__dirname,'build/Release/hidemu.node'));
