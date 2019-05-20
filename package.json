@@ -1,6 +1,6 @@
 {
   "name": "hidemu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Human Interface Device Emulator on Node.js written by C++.",
   "main": "index.js",
   "scripts": {
