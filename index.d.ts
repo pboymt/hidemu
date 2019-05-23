@@ -39,7 +39,7 @@ declare module "hidemu" {
     /**
      * 按下（一定时间）后抬起鼠标
      */
-    function mousePress(isRight?: boolean, duration: number): void;
+    function mousePress(isRight?: boolean, duration?: number): void;
 
     /**
      * 鼠标竖直（横向）滚动
